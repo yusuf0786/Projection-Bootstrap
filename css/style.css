@@ -1,0 +1,220 @@
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 0;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.big-wrapper{
+	background: #fff url(../img/banner.jpg) no-repeat center;
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+.big-wrapper .navbar{
+	background: none;
+	border: 0;
+	margin-top: 28px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #dfdfdf;
+}
+.navbar-header .navbar-toggle .icon-bar{
+	background-color: #fff;
+}
+.navbar-header .navbar-toggle:hover{
+	background-color: #67a364;
+}
+.navbar .navbar-brand, #mynavbar .navbar-right li a{
+	color: #fff;
+	font-weight: 500;
+}
+.navbar .navbar-brand:hover, #mynavbar .navbar-right li a:hover{
+	color: lightgreen;
+}
+.navbar .navbar-brand span{
+	color: #dfdfdf;
+}
+
+.banner{
+	padding: 180px 0;
+}
+.banner h1{
+	font-size: 68px;
+	font-weight: 500;
+	position: relative;
+	top: -80px;
+}
+.banner .banner-midd-part{
+	position: relative;
+	top: -40px;
+}
+.banner span{
+	font-size: 20px;
+	color: #7fab7e;
+}
+.banner h4{
+	font-weight: 400;
+}
+.banner p{
+	margin-top: -4px;
+	color: #dfdfdf;
+}
+.banner .middle{
+	border-left: 1px solid #dfdfdf;
+	border-right: 1px solid #dfdfdf;
+}
+.banner button{
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-top: 58px;
+	background: none;
+	border: 3px solid #67a364;
+	border-radius: 18px 18px;
+	padding: 8px 48px;
+	font-size: 11px;
+	letter-spacing: 1px;
+	color: #598758;
+}
+.banner button:hover{
+	border-color: greenyellow;
+	color: #fff;
+}
+
+/* two-section */
+.two-section{
+	padding: 80px 0;
+	text-align: center;
+}
+.two-section img{
+	width: 28%;
+	border-radius: 50%;
+}
+.two-section h4{
+	font-weight: 400;
+	color: black;
+}
+.two-section p{
+	font-size: 18px;
+	font-weight: 300;
+	color: grey;
+	line-height: 28px;
+	margin-top: 38px;
+}
+.two-section button{
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-top: 50px;
+	background: none;
+	border: 2px solid #598758;
+	border-radius: 18px 18px;
+	padding: 8px 48px;
+	font-size: 11px;
+	letter-spacing: 1px;
+	color: #67a364;
+}
+.two-section button:hover{
+	border-color: green;
+	color: greenyellow;
+}
+
+/* contact-section */
+.contact-section{
+	padding-top: 58px;
+	background-color: #67a364;
+	color: #fff;
+}
+.contact-section h1{
+	text-align: center;
+}
+#name{
+	background-color: #67a364;
+	border: 1px solid #74b570;
+	border-radius: 4px 4px;
+	width: 100%;
+	padding-left: 10px;
+}
+#email{
+	background-color: #67a364;
+	border: 1px solid #74b570;
+	border-radius: 4px 4px;
+	width: 100%;
+	padding-left: 10px;
+}
+#message{
+	background-color: #67a364;
+	border: 1px solid #74b570;
+	border-radius: 4px 4px;
+	width: 100%;
+	padding-left: 10px;
+}
+.contact-section .button{
+	text-align: center;
+}
+.contact-section button{
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-top: 50px;
+	background: none;
+	border: 2px solid #fff;
+	border-radius: 18px 18px;
+	padding: 8px 48px;
+	font-size: 11px;
+	letter-spacing: 1px;
+	margin-top: 0;
+}
+.contact-section button:hover{
+	border-color: greenyellow;
+	color: green;
+}
+
+/* footer */
+.footer{
+	background-color: #67a364;
+	text-align: center;
+	color: #dbdbdb;
+	font-weight: 400;
+	padding-top: 28px;
+	padding-bottom: 58px;
+}
+
+/* media query */
+@media only screen and (max-width:767px){
+	
+	
+	#mynavbar .navbar-right{
+		float: left !important;
+		text-align: left;
+	}
+	.banner h1{
+		font-size: 58px;
+	}
+	.banner span{
+		font-size: 48px;
+		margin-top: 28px;
+	}
+	.banner .middle{
+		border: 0;
+	}
+	
+
+	.two-section p{
+		width: 80%;
+		margin: 0 auto;
+		margin-top: 28px;
+		text-align: justify;
+	}
+	.two-section button{
+		width: 80%;
+		margin-bottom: 28px;
+	}
+
+}
+
+
+
+
+
+
+
